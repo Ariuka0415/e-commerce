@@ -3,6 +3,7 @@ import hamB from '../Assets/hamB.svg'
 import shopping_cart from '../Assets/shopping_cart.svg'
 import userIcon from '../Assets/userIcon.svg'
 import closeBtn from '../Assets/closeBtn.svg'
+import { Link } from 'react-router-dom'
 
 const Menu = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,12 +36,17 @@ const Menu = () => {
                             <img className='w-[20px] h-[30px]' src={hamB} alt="Hamburger Menu" />
                         </button>
                     </div>
-                    <a href="">
-                        <img className='w-[85px] h-[96px] my-1' src="https://bonbonbon.com/cdn/shop/files/BBBLogoRound_1.png?v=1684521968&width=170" alt="Logo" />
-                    </a>
-                    <a href="">
-                        <img className='w-[30px] h-[30px]' src={userIcon} alt="Shopping Cart" />
-                    </a>
+                    <Link to='/'>
+                        <button href="">
+                                <img className='w-[85px] h-[96px] my-1' src="https://bonbonbon.com/cdn/shop/files/BBBLogoRound_1.png?v=1684521968&width=170" alt="Logo" />
+                        </button>
+                    </Link>
+
+                    <Link to='/login'>
+                        <button href="">
+                            <img className='w-[30px] h-[30px]' src={userIcon} alt="Shopping Cart" />
+                        </button>
+                    </Link>
                 </div>
                 {/* Hamburger Menu section */}
                 {isMenuOpen && (

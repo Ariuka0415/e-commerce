@@ -9,7 +9,7 @@ module.exports = {
         'shadowMy': '0 1px 3px -2px black'
       },
       fontFamily: {
-        sans: ['Montserrat', 'sans-serif'],
+        kanit: ['Kanit', 'sans-serif'],
       },
       width: {
         'calc-250-14': 'calc(250px * 14)',
