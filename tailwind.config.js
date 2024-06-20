@@ -11,8 +11,24 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
       },
+      width: {
+        'calc-250-14': 'calc(250px * 14)',
+      },
+      transform: {
+        'translate-z-20': 'translateZ(20px)',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-150px * 5))' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 5s linear infinite',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 

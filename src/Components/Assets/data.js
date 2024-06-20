@@ -1,33 +1,25 @@
-import p1_img from './product_1.png'
-import p2_img from './product_2.png'
-import p3_img from './product_3.png'
-import p4_img from './product_4.png'
 
 let data_product = [
   {
     id:1,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image:p1_img,
-    new_price:50.00,
-    old_price:80.50,
+    name:"Milk chocolate hazelnut gianduja, toasted hazelnut, flaky salt",
+    image:"https://bonbonbon.com/cdn/shop/files/07.17.23-BonBonBon-Full-Collection0751.png?v=1691695444&width=1200",
+    new_price:12.19,
   },
   {id:2,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image:p2_img,
-    new_price:85.00,
-    old_price:120.50,
+    name:"Caramel, milk chocolate, toasted pecan, flaky salt",
+    image:"https://bonbonbon.com/cdn/shop/files/07.17.23-BonBonBon-Full-Collection0822.png?v=1691696069&width=1200",
+    new_price:15.99,
   },
   {id:3,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image:p3_img,
-    new_price:60.00,
-    old_price:100.50,
+    name:"Fudgy chocolate cake cream, buttercream frosting",
+    image:"https://bonbonbon.com/cdn/shop/files/07.17.23-BonBonBon-Full-Collection0835.png?v=1691694525&width=1200",
+    new_price:10.49,
   },
   {id:4,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image:p4_img,
-    new_price:100.00,
-    old_price:150.00,
+    name:"Toasted graham, torched marshmallow ganache, milk chocolate",
+    image:"https://bonbonbon.com/cdn/shop/files/07.17.23-BonBonBon-Full-Collection0810.png?v=1691695898&width=1200",
+    new_price:18.29,
   },
 ];
 
