@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import Vector2 from '../Components/Assets/Vector2.svg';
 import Vector3 from '../Components/Assets/Vector3.svg';
 import Popular from '../Components/Popular/Popular';
+import NewProducts from '../Components/newProducts/NewProducts';
 
 const Homepage = () => {
     const [isDesOpen, setIsDesOpen] = useState(true);
@@ -48,6 +49,7 @@ const Homepage = () => {
                 </div>
             </div>
             <Popular/>
+            <NewProducts/>
         </div>
     )
 }

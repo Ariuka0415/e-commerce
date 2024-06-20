@@ -17,6 +17,9 @@ module.exports = {
       transform: {
         'translate-z-20': 'translateZ(20px)',
       },
+      border:{
+        'cusBorder':'1px solid #ebebeb'
+      },
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
