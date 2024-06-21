@@ -52,7 +52,7 @@ const Menu = () => {
             {/* Hamburger Menu section */}
             {isMenuOpen && (
                 <>
-                    <div className="fixed inset-0 bg-black opacity-50 z-50"></div>
+                    <div className="fixed inset-0 bg-[#f4c4cd] opacity-90 blur-md z-50"></div>
                     <div ref={menuRef} className='h-screen text-[#df1f26] text-[16px] md:w-[35%] lg:w-[35%] sm:w-full fixed inset-0 bg-[#f4c4cd] shadow-xl z-50'>
                         <ul className='font-sans font-bold'>
                             <li className='flex justify-between h-[51px] border-b border-[#e7b2b8] px-3 '>

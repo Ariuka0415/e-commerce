@@ -1,6 +1,7 @@
 import React from 'react'
-import './Style.css'    
 import { Link } from 'react-router-dom'
+import '../Components/Footer/Footer.css'
+
 
 const Sign = () => {
     return(
@@ -28,12 +29,12 @@ const Sign = () => {
             type="password"
             placeholder='Password'
           />
-          <button className='bg-[#f4c4cd] h-12 text-lg text-[#df2128] border border-[#df2128] font-bold hover:bg-[#f3bcc5] duration-300'>
+          <button className='bg-[#f4c4cd] rounded-[5px] h-12 text-lg text-[#df2128] border border-[#df2128] font-bold hover:bg-[#f3bcc5] duration-300'>
             CREATE
           </button>
         </div>
         <Link to='/login'>
-          <div className='mt-8 font-bold hover:underline'>LOG IN</div>
+          <div className='mt-8 font-bold hover-underline-animation'>LOG IN</div>
         </Link>
       </div>
     </div>

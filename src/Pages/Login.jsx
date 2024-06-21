@@ -1,6 +1,6 @@
 import React from 'react'
-import './Style.css'
 import { Link } from 'react-router-dom'
+import '../Components/Footer/Footer.css'
 
 const Login = () => {
     return(
@@ -18,16 +18,16 @@ const Login = () => {
                         type="password"
                         placeholder='Password'
                     />
-                    <button className='bg-[#f4c4cd] h-[45px] text-[#df2128] border border-[#df2128] font-semibold hover:bg-[#f3bcc5] duration-300'>
-                        SIGN IN
+                    <button className='bg-[#f4c4cd] h-[45px] text-[#df2128] border border-[#df2128] font-semibold hover:bg-[#f3bcc5] duration-300 rounded-[5px]'>
+                        LOGIN
                     </button>
                 </div>
                 <div className='flex mt-10 justify-around items-center'>
                     <Link to='/signUp'>
-                        <button className='hover:underline duration-300'>CREATE ACCOUNT</button>
+                        <button className='hover-underline-animation duration-300'>CREATE ACCOUNT</button>
                     </Link>
                     <span className='mx-4 w-2 h-2 bg-[#df2128] text-center rounded-full'></span>
-                    <button className='hover:underline duration-300'>FORGET PASSWORD</button>
+                    <button className='hover-underline-animation duration-300'>FORGET PASSWORD</button>
                 </div>
         </div>
     </div>
