@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import Vector2 from '../Components/Assets/Vector2.svg';
 import Vector3 from '../Components/Assets/Vector3.svg';
 import Popular from '../Components/Popular/Popular';
+import '../Components/Footer/Footer.css'
 import NewProducts from '../Components/newProducts/NewProducts';
 
 const Homepage = () => {
@@ -32,7 +33,7 @@ const Homepage = () => {
                     <div className='mt-12 w-full mx-4 sm:mx-6 border-t border-[#c96167] '>
                         <div className='flex justify-between items-center'>
                             <h1 className='leading-9 text-lg md:text-xl lg:text-2xl font-semibold py-3'>DESCRIPTION</h1>
-                            <button onClick={openBtn} className='font-bold text-[#b71c1c] w-5 h-5  focus:outline-none'>
+                            <button onClick={openBtn} className=' cursor pointer font-bold text-[#b71c1c] w-5 h-5  focus:outline-none'>
                                 {isDesOpen ? (
                                 <img src={Vector2} className='pr-2 transition-all duration-300' alt="" />
                                 ) : (
@@ -41,7 +42,7 @@ const Homepage = () => {
                             </button>
                         </div>
                         {isDesOpen && (
-                            <p className='leading-7 md:leading-8 lg:leading-9 border-b border-[#c96167] pt-2 pb-4'>
+                            <p className='leading-7 md:leading-8 lg:leading-9 border-b border-[#c96167] pt-2 pb-4 slide-down'>
                                 Love all kinds o' chocolate? Not too picky? Looking for a variety of Bon Bons? These boxes include a mix of our favorite Bons, all wrapped up and ready to go in one long Box Box Box. Some milk, dark, and white chocolate
                             </p>
                         )}
